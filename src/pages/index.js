@@ -11,7 +11,8 @@ const BlogLink = styled(Link)`
 
 const BlogTitle = styled.h3`
   margin-bottom: 20px;
-  color: darkblue;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
 `
 
 const IndexPage = ({ data }) => (
