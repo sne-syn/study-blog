@@ -1,9 +1,16 @@
 
 
 import React from 'react'
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import BlogNavigation from "../components/blog-navigation"
 
 const BlogPage = () =>  (
+ 
  <body class="page-blog">
+<Layout>
+  <SEO title="Home" />
+    <BlogNavigation />
     <div class="article-grid">
       <article class="article-preview article-preview--featured">
         <img src="img/blog-1.svg" alt="electric drill">
@@ -94,7 +101,8 @@ const BlogPage = () =>  (
         </div>
       </article>
     </div>
-  </div
+  </div>
+</ Layout>
   </body>
 )
 
