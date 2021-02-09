@@ -1,12 +1,10 @@
 import React from 'react';
-import {graphql} from 'gatsby';
 import Layout from '../components/layout';
 import Header from '../components/header';
+import LatestArticles from'../components/latest-articles';
 
-export default ({data}) => {
-  const post = data.markdownRemark;
+const Article = () => {
   return (
-    
     <body class="page-article">
     <Layout>
       <article class="xl-space article-full flow-content">
@@ -40,19 +38,11 @@ export default ({data}) => {
       suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea
       voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla
       pariatur?</p>
-  </article>
+    </article>
+    <LatestArticles />
     </Layout>   
     </body>
   )
 }
 
-export const query = graphql `
-  query($slug: String!) {
-    markdownRemark(fields: {slug: {eq: $slug}}) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`
+export default Article;
