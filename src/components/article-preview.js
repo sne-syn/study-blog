@@ -3,7 +3,7 @@ import React from 'react';
 const ArticlePreview = () => {
   return (
     <article class="article-preview flow-content">
-        <img src="img/blog-6.svg" alt="electric drill">
+        <img src="img/blog-6.svg" alt="electric drill" />
         <h3><a href="#">Lorem ipsum dolor sit amet, consectet adipiscing</a></h3>
         <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
         <div class="info">

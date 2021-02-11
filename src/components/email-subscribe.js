@@ -11,11 +11,11 @@ const EmailSubscribe = () => {
       <img className="newsletter-img" src="img/newsletter.svg" alt="floating items" />
       <form action="" method="post" className="newsletter">
         <div>
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
           <input placeholder="Your Name" type="text" id="name" name="name" />
         </div>
         <div>
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
           <input placeholder="example@domain.com" type="email" name="email" id="email" />
         </div>
         <button className="btn" type="submit">Subscribe</button>
