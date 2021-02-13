@@ -3,15 +3,15 @@ import {Link} from 'gatsby'
 
 const BlogNavigation = () => {
   return (
-    <div class="secondary-navigation">
-      <ul class="categories">
+    <div className="secondary-navigation">
+      <ul className="categories">
         <li><button>Design</button></li>
         <li><button>Front-End</button></li>
         <li><button>Back-end</button></li>
         <li><button>Web</button></li>
         <li><button>Apps</button></li>
       </ul>
-      <Link to="/" class="btn">Subscribe</Link>
+      <Link to="/" className="btn">Subscribe</Link>
     </div>
   )
 }

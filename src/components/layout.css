@@ -246,12 +246,12 @@ section {
 .page-home .primary-header {
   /* background-image: url(img/hero.svg); */
   background-position: center center;
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-400);
   background-size: contain;
 }
 
 .page-blog .primary-header {
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-400);
   /* background-image: url(img/blog.svg); */
   background-position: right center;
   background-size: 48%;
@@ -259,7 +259,7 @@ section {
 
 .page-article .primary-header {
   position: relative;
-  background-color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-400);
   /* background-image: url(img/article.svg); */
   background-position: right center;
   background-size: 48%;

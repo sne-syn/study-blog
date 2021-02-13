@@ -8,19 +8,19 @@ import ArticlePreview from "../components/article-preview"
 
 const BlogPage = () =>  (
  
- <body class="page-blog">
+ <section className="page-blog">
     <Layout>
       <SEO title="Home" />
       <BlogNavigation />
-      <div class="article-grid">
-        <article class="article-preview article-preview--featured">
+      <div className="article-grid">
+        <article className="article-preview article-preview--featured">
           <img src="img/blog-1.svg" alt="electric drill" />
           <h3>
             <a href="#">Lorem ipsum dolor sit amet, consectet adipiscing</a>
           </h3>
           <p>Lorem ipsum dolor sit amet, consectet adipiscing</p>
-          <div class="info">
-            <time datetime="2020-10-08">Oct 8</time>
+          <div className="info">
+            <time dateTime="2020-10-08">Oct 8</time>
             <p>8 min read</p>
           </div>
         </article>
@@ -33,7 +33,7 @@ const BlogPage = () =>  (
         <ArticlePreview />
       </div>
     </ Layout>
-  </body>
+  </section>
 )
 
 

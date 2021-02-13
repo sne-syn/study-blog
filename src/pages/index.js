@@ -8,7 +8,7 @@ import About from "../components/about"
 import LatestArticles from "../components/latest-articles"
 
 const IndexPage = ({ data }) => (
- <body class="page-home">
+ <section className="page-home">
   <Layout>
     <SEO title="Home" />
     <BlogNavigation />
@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
     </section>
     <LatestArticles />
   </Layout>
-  </body>
+  </section>
 )
 
 export default IndexPage

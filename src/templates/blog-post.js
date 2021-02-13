@@ -5,9 +5,9 @@ import LatestArticles from'../components/latest-articles';
 
 const Article = () => {
   return (
-    <body class="page-article">
+    <body className="page-article">
       <Layout>
-        <article class="xl-space article-full flow-content">
+        <article className="xl-space article-full flow-content">
         <h2>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor
           incididunt
           ut labore et dolore
