@@ -8,7 +8,7 @@ import About from "../components/about"
 import LatestArticles from "../components/latest-articles"
 
 const IndexPage = ({ data }) => (
- <section className="page-home">
+ <section className="body page-home">
   <Layout>
     <SEO title="Home" />
     <BlogNavigation />
